@@ -6,6 +6,10 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h1>
+          Palette Picker
+          <span role="img" aria-label="art"> 🎨</span>
+        </h1>
         <Palette {...seedColors[0]} />
       </div>
     );
