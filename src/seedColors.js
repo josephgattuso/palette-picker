@@ -239,6 +239,6 @@ export default [
       { name: "DarkSapphire", color: "#0c2461" },
       { name: "ForestBlues", color: "#0a3d62" },
       { name: "ReefEncounter", color: "#079992" },
-    ],
-  },
-]
+    ]
+  }
+];
