@@ -17,22 +17,23 @@ class Palette extends Component {
     this.setState({ format: val });
   }
   render() {
-    const { colors } = this.props.palette;
+    const { colors, paletteName, emoji } = this.props.palette;
     const { level, format } = this.state;
     const colorBoxes = colors[level].map(color => (
-      // eslint-disable-next-line react/jsx-key
-      <ColorBox background={color[format]} name={color.name} />
+      <ColorBox background={color[format]} name={color.name} key={color.id} />
     ));
     return (
-      <div className='Palette'>
+      <div className="Palette">
         <Navbar
           level={level}
           changeLevel={this.changeLevel}
           handleChange={this.changeFormat}
         />
-        {/* Navbar goes here */}
-        <div className='Palette-colors'>{colorBoxes}</div>
-        {/* footer eventually */}
+        <div className="Palette-colors">{colorBoxes}</div>
+        <footer className="Palette-footer">
+          {paletteName}
+          <span className="emoji">{emoji}</span>
+        </footer>
       </div>
     );
   }
