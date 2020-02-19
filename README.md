@@ -1,5 +1,7 @@
 # Palette Picker :art:
 
+[![Heroku](https://heroku-shields.herokuapp.com/palette-picker-josephgattuso)](https://palette-picker-josephgattuso.herokuapp.com) [![Dependencies](https://img.shields.io/david/josephgattuso/palette-picker?style=flat)](https://palette-picker-josephgattuso.herokuapp.com)
+
 ## Summary
 
 Create unique colour palettes in this smart colour palette generator.
@@ -11,6 +13,7 @@ Create unique colour palettes in this smart colour palette generator.
 <!-- - Multiple environments: -->
 <!-- - Testing -->
 <!-- - Making use of automatic continuous integration with TravisCI -->
+
 - Deployment with Heroku
 
 ## Built with
@@ -20,12 +23,11 @@ Create unique colour palettes in this smart colour palette generator.
 - React Router
 - Heroku
 - Git Hooks
-<!-- - PostgreSQL -->
-<!-- - Nodejs -->
-<!-- - Express -->
-<!-- - Jest & Enzyme -->
-<!-- - Travis CI -->
-
+  <!-- - PostgreSQL -->
+  <!-- - Nodejs -->
+  <!-- - Express -->
+  <!-- - Jest & Enzyme -->
+  <!-- - Travis CI -->
 
 ## Getting started
 
